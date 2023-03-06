@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  test-mongoose:
+    image: node:16.14-alpine
+    volumes:
+      - .:/app
+    entrypoint: ["npm", "start"]
+    working_dir: /app
+    env_file:
+      - .env
+    networks:
+      main:
+networks:
+  main:

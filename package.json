@@ -1,0 +1,16 @@
+{
+  "name": "tmp-test-mongodb",
+  "version": "1.0.0",
+  "description": "A simple script to test MongoDB connection",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "docker-compose:start": "docker-compose up"
+  },
+  "author": "k1ch",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "16.0.3",
+    "mongoose": "6.9.0"
+  }
+}
