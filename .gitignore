@@ -1,5 +1,4 @@
 err.json
 .env.local
-node_modules
 .vscode
 *.pem
